@@ -11,7 +11,7 @@ html, body{
 }
 
 .greeting{
-    font-size: 3.5rem;
+    font-size: 3rem;
     writing-mode: vertical-rl;
     text-orientation: upright;
 }
@@ -26,7 +26,7 @@ button {
 
 .bookmark {
     position: absolute;
-    bottom: 5rem;
+    bottom: 2rem;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
