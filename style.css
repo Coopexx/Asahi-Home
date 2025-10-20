@@ -4,13 +4,38 @@ html, body{
     background-color: black;
     color: #fff;
     overflow: hidden;
+    position: relative;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .greeting{
-    font-size: 3rem;
-    
+    font-size: 3.5rem;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+button {
+    width: 5rem;
+    height: 5rem;
+    border: none;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.bookmark {
+    position: absolute;
+    bottom: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.bookmark-item:hover {
+    transform: scale(1.25);
+    transition: transform 0.2s ease;
 }
