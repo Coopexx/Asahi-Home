@@ -39,3 +39,8 @@ button {
     transform: scale(1.25);
     transition: transform 0.2s ease;
 }
+
+.bookmark-icon {
+    width: 2.5rem;
+    height: auto;
+}
